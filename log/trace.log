@@ -10,3 +10,37 @@
 2021-04-01 09:53:01.302 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
 2021-04-01 09:53:01.327 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
 2021-04-01 09:53:01.339 INFO  com.wz.demo.DemoApplication                       :61   [32m                  [0;39m Started DemoApplication in 2.279 seconds (JVM running for 3.87)
+2021-04-01 09:59:09.919 INFO  com.wz.demo.DemoApplicationTests                  :55   [32m                  [0;39m Starting DemoApplicationTests using Java 1.8.0_231 on srdmx10133 with PID 18332 (started by wangz172 in C:\Users\wangz172\Documents\spring)
+2021-04-01 09:59:09.922 INFO  com.wz.demo.DemoApplicationTests                  :662  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-04-01 09:59:11.153 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-01 09:59:11.492 INFO  com.wz.demo.DemoApplicationTests                  :61   [32m                  [0;39m Started DemoApplicationTests in 1.918 seconds (JVM running for 3.174)
+2021-04-01 09:59:11.820 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-01 09:59:28.090 INFO  com.wz.demo.DemoApplicationTests                  :55   [32m                  [0;39m Starting DemoApplicationTests using Java 1.8.0_231 on srdmx10133 with PID 1728 (started by wangz172 in C:\Users\wangz172\Documents\spring)
+2021-04-01 09:59:28.094 INFO  com.wz.demo.DemoApplicationTests                  :662  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-04-01 09:59:29.263 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-01 09:59:29.570 INFO  com.wz.demo.DemoApplicationTests                  :61   [32m                  [0;39m Started DemoApplicationTests in 1.913 seconds (JVM running for 3.183)
+2021-04-01 09:59:29.781 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-01 10:12:00.415 INFO  com.wz.demo.DemoApplicationTests                  :55   [32m                  [0;39m Starting DemoApplicationTests using Java 1.8.0_231 on srdmx10133 with PID 12536 (started by wangz172 in C:\Users\wangz172\Documents\spring)
+2021-04-01 10:12:00.419 INFO  com.wz.demo.DemoApplicationTests                  :662  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-04-01 10:12:01.699 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-01 10:12:02.000 INFO  com.wz.demo.DemoApplicationTests                  :61   [32m                  [0;39m Started DemoApplicationTests in 1.971 seconds (JVM running for 3.227)
+2021-04-01 10:12:02.251 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-01 10:15:12.328 INFO  com.wz.demo.DemoApplicationTests                  :55   [32m                  [0;39m Starting DemoApplicationTests using Java 1.8.0_231 on srdmx10133 with PID 14184 (started by wangz172 in C:\Users\wangz172\Documents\spring)
+2021-04-01 10:15:12.335 INFO  com.wz.demo.DemoApplicationTests                  :662  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-04-01 10:15:13.993 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-01 10:15:14.507 INFO  com.wz.demo.DemoApplicationTests                  :61   [32m                  [0;39m Started DemoApplicationTests in 2.815 seconds (JVM running for 5.037)
+2021-04-01 10:15:14.795 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-01 10:17:30.339 INFO  com.wz.demo.DemoApplication                       :55   [32m                  [0;39m Starting DemoApplication using Java 1.8.0_231 on srdmx10133 with PID 7424 (C:\Users\wangz172\Documents\spring\target\classes started by wangz172 in C:\Users\wangz172\Documents\spring)
+2021-04-01 10:17:30.342 INFO  com.wz.demo.DemoApplication                       :662  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-04-01 10:17:31.071 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2021-04-01 10:17:31.079 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2021-04-01 10:17:31.079 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-04-01 10:17:31.080 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-01 10:17:31.143 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-04-01 10:17:31.144 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 753 ms
+2021-04-01 10:17:31.270 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-01 10:17:31.395 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2021-04-01 10:17:31.416 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2021-04-01 10:17:31.424 INFO  com.wz.demo.DemoApplication                       :61   [32m                  [0;39m Started DemoApplication in 1.563 seconds (JVM running for 2.636)
+2021-04-01 10:17:31.427 INFO  com.wz.demo.DemoApplication                       :17   [32m                  [0;39m running
+2021-04-01 10:17:31.427 INFO  com.wz.demo.DemoApplication                       :18   [32m                  [0;39m 127.0.0.1:8880
