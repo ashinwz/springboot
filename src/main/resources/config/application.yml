@@ -1,2 +1,9 @@
 server:
   port: 8881
+
+spring:
+  datasource:
+    url: jdbc:sqlserver://10.86.176.29:1433;database=java
+    username: java
+    password: java
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver

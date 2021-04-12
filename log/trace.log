@@ -46,3 +46,72 @@
 2021-04-12 10:21:07.677 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
 2021-04-12 10:21:07.678 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
 2021-04-12 10:21:07.680 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
+2021-04-12 14:08:47.460 INFO  com.wz.demo.DemoApplication                       :55   [32m                  [0;39m Starting DemoApplication using Java 1.8.0_231 on srdmx10133 with PID 15544 (C:\Users\wangz172\Documents\spring\target\classes started by wangz172 in C:\Users\wangz172\Documents\spring)
+2021-04-12 14:08:47.463 INFO  com.wz.demo.DemoApplication                       :662  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-04-12 14:08:48.218 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8881 (http)
+2021-04-12 14:08:48.226 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8881"]
+2021-04-12 14:08:48.227 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-04-12 14:08:48.227 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-12 14:08:48.292 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-04-12 14:08:48.292 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 776 ms
+2021-04-12 14:08:48.418 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-12 14:08:48.567 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8881"]
+2021-04-12 14:08:48.592 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8881 (http) with context path ''
+2021-04-12 14:08:48.604 INFO  com.wz.demo.DemoApplication                       :61   [32m                  [0;39m Started DemoApplication in 1.653 seconds (JVM running for 2.748)
+2021-04-12 14:08:48.607 INFO  com.wz.demo.DemoApplication                       :17   [32m                  [0;39m running
+2021-04-12 14:08:48.608 INFO  com.wz.demo.DemoApplication                       :18   [32m                  [0;39m 127.0.0.1:8881
+2021-04-12 14:57:51.309 INFO  com.wz.demo.DemoApplication                       :55   [32m                  [0;39m Starting DemoApplication using Java 1.8.0_231 on srdmx10133 with PID 16396 (C:\Users\wangz172\Documents\spring\target\classes started by wangz172 in C:\Users\wangz172\Documents\spring)
+2021-04-12 14:57:51.314 INFO  com.wz.demo.DemoApplication                       :662  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-04-12 14:57:51.360 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-12 14:57:51.361 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-12 14:57:52.016 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m No MyBatis mapper was found in '[com.wz.demo]' package. Please check your configuration.
+2021-04-12 14:57:52.363 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8881 (http)
+2021-04-12 14:57:52.370 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8881"]
+2021-04-12 14:57:52.371 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-04-12 14:57:52.371 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-12 14:57:52.453 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-04-12 14:57:52.454 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1092 ms
+2021-04-12 14:57:52.625 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-12 14:57:52.752 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:591  [32m                  [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2021-04-12 14:57:52.753 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-12 14:57:52.755 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2021-04-12 14:57:52.776 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener:136  [32m                  [0;39m 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-04-12 14:57:52.798 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2021-04-12 15:06:49.711 INFO  com.wz.demo.DemoApplication                       :55   [32m                  [0;39m Starting DemoApplication using Java 1.8.0_231 on srdmx10133 with PID 27212 (C:\Users\wangz172\Documents\spring\target\classes started by wangz172 in C:\Users\wangz172\Documents\spring)
+2021-04-12 15:06:49.715 INFO  com.wz.demo.DemoApplication                       :662  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-04-12 15:06:49.790 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-12 15:06:49.790 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-12 15:06:50.439 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m No MyBatis mapper was found in '[com.wz.demo]' package. Please check your configuration.
+2021-04-12 15:06:50.798 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8881 (http)
+2021-04-12 15:06:50.805 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8881"]
+2021-04-12 15:06:50.806 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-04-12 15:06:50.806 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-12 15:06:50.886 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-04-12 15:06:50.887 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1096 ms
+2021-04-12 15:06:51.048 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-12 15:06:51.324 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-04-12 15:06:51.339 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8881"]
+2021-04-12 15:06:51.364 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8881 (http) with context path ''
+2021-04-12 15:06:51.374 INFO  com.wz.demo.DemoApplication                       :61   [32m                  [0;39m Started DemoApplication in 2.316 seconds (JVM running for 3.67)
+2021-04-12 15:06:51.377 INFO  com.wz.demo.DemoApplication                       :17   [32m                  [0;39m running
+2021-04-12 15:06:51.378 INFO  com.wz.demo.DemoApplication                       :18   [32m                  [0;39m 127.0.0.1:8881
